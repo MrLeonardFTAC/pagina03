@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+
+    <!--Esta es una tabla, no entiendo como funciona del todo-->
+</head>
+    <body>
+        <table>
+            <tr>
+            <th>Encabezado</th>
+            </tr>
+            <tr>
+            <td>Datos</td>
+            </tr>
+        </table>
+    <h2>Mis mascotas</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Especie</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>Perro</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Tita</td>
+            <td>Gata</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <h2>Ventas a la semana</h2>
+    <table>
+        <tr>
+            <thead>
+                <th>Producto</th>
+                <th>Unidades</th>
+                <th>Precio</th>
+            </thead>
+        <tbody>
+        </tr>
+            <tr>
+            <td>Cuaderno</td>
+            <td>50</td>
+            <td>$2.00</td>
+        </tr>
+            <tr>
+            <td>Lápiz</td>
+            <td>100</td>
+            <td>$0.50</td>
+            </tr>
+            <tr>
+            <td>Mochila</td>
+            <td>25</td>
+            <td>$15.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total Unidades</td>
+                <td>175</td>
+                <td> </td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Notas del primer bimestre</th>
+            </tr>
+            <tr>
+                <th>Alumno</th>
+                <th>Matemáticas</th>
+                <th>Lengua</th>
+                <th>Ciencias</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Ana</td>
+            <td>18</td>
+            <td>16</td>
+            <td>17</td></tr>
+            <tr><td>Juan</td>
+            <td>14</td>
+            <td>15</td>
+            <td>13</td></tr>
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+            <th>Dia</th>
+            <th>Hora</th>
+            <th>Materia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Lunes</td>
+                <td>8:00 - 9:00</td>
+                <td>Matemáticas</td>
+            </tr>
+            <tr>
+                <td>9:00 - 10:00</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Martes</td>
+                <td>8:00 - 9:00</td>
+                <td>Inglés</td>
+            </tr>
+            <tr>
+                <td>9:00 - 10:00</td>
+                <td>Arte</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <caption>Temperatura promedio de la ciudad</caption>
+        <thead>
+            <tr>
+                <th scope="col">Ciudad</th>
+                <th scope="col">Verano</th>
+                <th scope="col">Invierno</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">Lima</td>
+                <td>26°C</td>
+                <td>17°C</td>
+            </tr>
+            <tr>
+                <td scope="row">Cusco</td>
+                <td>19°C</td>
+                <td>8°C</td>
+            </tr>
+            <tr>
+                <td scope="row">Iquitos</td>
+                <td>32°C</td>
+                <td>30°C</td>
+            </tr>
+    </table>
+        <!--EJERCICIOS PROPUESTOS, DAMN-->
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+                <th>País</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>Pérez</td>
+                <td>25</td>
+                <td>Lima</td>
+                <td>Perú</td>
+            </tr>
+            <tr>
+                <td>María</td>
+                <td>González</td>
+                <td>30</td>
+                <td>Buenos Aires</td>
+                <td>Argentina</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>Ramírez</td>
+                <td>28</td>
+                <td>Santiago</td>
+                <td>Chile</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>Martínez</td>
+                <td>22</td>
+                <td>Ciudad de México</td>
+                <td>México</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>García</td>
+                <td>35</td>
+                <td>Madrid</td>
+                <td>España</td>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>9:00 - 12:00</td>
+                <td>9:00 - 12:00</td>
+                <td>9:00 - 12:00</td>
+                <td>9:00 - 12:00</td>
+                <td>9:00 - 12:00</td>
+            </tr>
+            <tr>
+                <td>Inglés</td>
+                <td>Arte</td>
+                <td>Música</td>
+                <td>Geografía</td>
+                <td>Tecnología</td>
+            </tr>
+            <tr>
+                <td>Matematica</td>
+                <td>Ciencias Sociales</td>
+                <td>Robotica</td>
+                <td>DPCC</td>
+                <td>Educacion Fisica</td>
+            </tr>
+            <tr>
+                <td colspan="5">RECREO</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Matematica</td>
+                <td>Quimica</td>
+                <td>Fisica</td>
+                <td>Historia</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td>Biología</td>
+                <td>DPCC</td>
+                <td>Ciencias sociales</td>
+                <td>Arte</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <td>Nothing Phone</td>
+                <td>Motorola G86 Power</td>
+                <td>Samsung Galaxy A14</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>6.55 pulgadas</td>
+                <td>6.6 pulgadas</td>
+                <td>6.6 pulgadas</td>
+            </tr>
+            <tr>
+                <td>120 Hz</td>
+                <td>120 Hz</td>
+                <td>90 Hz</td>
+            </tr>
+            <tr>
+                <td>4500 mAh</td>
+                <td>5000 mAh</td>
+                <td>5000 mAh</td>
+            </tr>
+            <tr>
+                <td>Snapdragon 778G+</td>
+                <td>MediaTek Helio G96</td>
+                <td>Exynos 850</td>
+            </tr>
+            <tr>
+                <td>50 MP</td>
+                <td>50 MP</td>
+                <td>50 MP</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+
+            <tr>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+            </tr>
+
+            <tr>
+                <td>28</td>
+                <td>29</td>
+                <td><strong>30</strong></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+    
+    </body>
+</html>

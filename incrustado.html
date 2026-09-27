@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido incrustado</title>
+<body>
+    <h2>Mi video favorito</h2>
+    <!--Por alguna razon, el video no carga asi-->
+    <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/watch?v=kM1LXiUrHVo&t"
+    title="Unidad aritmetico logica"
+    allowfullscreen></iframe>
+    <h2>Donde estamos</h2>
+    <!--no me permitia visualizarlo con el link original, asi que , para solucionarlo, tuve que elegir el sitio, darle en compartir, y darle en "Insertar un mapa"-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7740.486741248193!2d-75.7323161!3d-14.0628011!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2bdb02af083%3A0xf459f8f69b351df!2sPlaza%20de%20Armas%20de%20Ica!5e0!3m2!1ses!2spe!4v1790527609023!5m2!1ses!2spe"
+     width="400"
+     height="300"
+     style="border:0;"
+     allowfullscreen=""
+     loading="lazy"
+     referrerpolicy="strict-origin-when-cross-origin"></iframe>
+     <h1>Página principal</h1>
+    <p>Debajo se muestra mi página de contacto incrustada:</p>
+    <iframe src="contacto.html" width="500" height="250"
+     title="Página de contacto">
+    </iframe>
+    <h3>Iframe con sandbox (máxima restricción)</h3>
+<iframe src="contacto.html" width="400" height="200" title="Contacto restringido"
+    loading="lazy" sandbox></iframe>
+    <h3>Iframe con sandbox que permite scripts</h3>
+<iframe src="contacto.html" width="400" height="200" title="Contacto con scripts"
+    loading="lazy" sandbox="allow-scripts"></iframe>
+    <h2>Prueba de incrustado</h2>
+    <iframe src="https://www.google.com" width="500" height="300" title="Intento de
+    incrustar Google"></iframe>
+    <p>Si el marco de arriba no muestra nada, es porque el sitio bloquea la incrustación.
+    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Ábrelo
+    directamente aquí</a>.</p>
+    <h2>Acaele NAS con ZimaOS</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5bfZd5NUC0g?si=PHkndfOuwJsL83vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>10GB PARA TODOS</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jK4YZNEYFnA?si=ExuhrEOuAK-t3jf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Laptop barata china</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4hBDk1Pjc0s?si=PP4hmPHNmpLqrv8L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

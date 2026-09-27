@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+<body>
+    <h1>Audio</h1>
+    <p>Escucha un audio de ejemplo:</p>
+    <h2>Mi sonido favorito</h2>
+    <audio controls>
+        <source src="audio/Masayoshi Takanaka - Tokyo Reggie.flac" type="audio/flac">
+        <source src="audio/Masayoshi Takanaka - Tokyo Reggie.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <h2>Sonido de lluvia en bucle</h2>
+    <audio controls loop>
+        <source src="audio/856405__kijjaz__20260531-raining-in-bangkok-01.wav" type="audio/wav">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <!--Control de precarga-->
+    <h3>preload="none"</h3>
+    <audio controls preload="none">
+        <source src="audio/856405__kijjaz__20260531-raining-in-bangkok-01.wav" preload="none" type="audio/wav">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <h3>preload="metadata"</h3>
+    <audio controls preload="metadata">
+        <source src="audio/856405__kijjaz__20260531-raining-in-bangkok-01.wav" preload="metadata" type="audio/wav">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <h3>preload auto</h3>
+    <audio controls preload="auto">
+        <source src="audio/856405__kijjaz__20260531-raining-in-bangkok-01.wav" preload="auto" type="audio/wav">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <h2>Mi playlist</h2>
+    <ol>
+        <li>
+            <strong>Pista 1 - Intro</strong><br>
+            <audio src="audio/856405__kijjaz__20260531-raining-in-bangkok-01.wav" controls preload="none"></audio>
+        </li>
+        <li>
+            <strong>Pista 2 - Tema principal</strong><br>
+            <audio src="audio/856405__kijjaz__20260531-raining-in-bangkok-01.wav" controls preload="none"></audio>
+        </li>
+        <li>
+            <strong>Pista 3 - Final</strong><br>
+            <audio src="audio/856405__kijjaz__20260531-raining-in-bangkok-01.wav" controls preload="none"></audio>
+        </li>
+    </ol>
+</body>
+</html>

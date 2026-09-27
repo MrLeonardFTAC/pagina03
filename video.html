@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videoteca</title>
+</head>
+<body>
+    <h2>Mi primer video</h2>
+    <video src="video/montañas.mp4" controls width="500"></video>
+    <hr>
+    <video controls width="500" poster="img/logo.jpg">
+        <source src="video/bici.mp4" type="video/mp4">
+        <source src="video/bici.mp4" type="video/webm">
+        Tu navegador no soporta este video. <a href="video/bici.mp4">Descargalo aquí</a>
+    </video>
+    <h2>Video decorativo</h2>
+    <video src="video/rebels.mp4" width="500" autoplay muted loop playsinline></video>
+    <hr>
+    <video controls width="500">
+        <source src="video/lorem.mp4" type="video/mp4">
+        <track src="video/subtitulos.vtt" kind="subtitles" srclang="es" label="Español" default>
+    </video>
+    <h2>Accede a la <a href="videoteca.html">Videoteca</a></h2>
+</body>
